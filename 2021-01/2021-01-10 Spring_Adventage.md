@@ -15,9 +15,6 @@
     - Spring에서 DI란?
         - 의존성을 제거
         - 별도로 3자가 만들어주는 의존 객체를 각 클래스에 뿌려주는 기능으로 변경의 유연성을 제공
-
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e83a6826-e738-40fb-86f0-0838818534c3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e83a6826-e738-40fb-86f0-0838818534c3/Untitled.png)
-
 3. AOP (Aspect Oriented Programming, 관점지향 프로그래밍) 지원
     - AOP란
         - 한 어플리케이션 내에서 다양한 모듈에서 공통적으로 이용되는 기능을 분리시켜 사용하는 것
