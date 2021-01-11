@@ -58,19 +58,19 @@
 
 - JPA 동작 과정
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68a2dcf1-fa98-460a-992e-1bbc69c18545/Untitled_3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68a2dcf1-fa98-460a-992e-1bbc69c18545/Untitled_3.png)
+![ACTION](../public/image/JPA/JPA_ACTION.png)
 
 - 개발자가 JPA를 사용하면 JPA 내부에서 JDBC API를 사용하여 SQL을 호출하여 DB와 통신
 1. INSERT
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ee34a32-9798-4ae1-873f-9bdcb80e9fda/Untitled_4.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ee34a32-9798-4ae1-873f-9bdcb80e9fda/Untitled_4.png)
+    ![INSERT](../public/image/JPA/JPA_INSERT.png)
 
     1. Meber 엔티티 분석
     2. INSERT SQL 생성
     3. JDBC API를 이용하여 SQL을 DB에 날림
 2. Find
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3eadd062-c1ad-4fb5-9a01-b995ff218328/Untitled_5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3eadd062-c1ad-4fb5-9a01-b995ff218328/Untitled_5.png)
+    ![FIND](../public/image/JPA/JPA_FIND.png)
 
     1. 엔티티의 매핑 정보를 바탕으로 적절한 SELECT SQL 생성
     2. JDBC API를 이용하여 SQL을 DB에 날림
